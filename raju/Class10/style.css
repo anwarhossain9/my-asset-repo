@@ -1,0 +1,135 @@
+/* div p {
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div > p {
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+div + p {
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.heading {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.heading + .subHeading{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: orange;
+}
+
+.heading ~ .subHeading{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: orange;
+} 
+
+:root{
+    --or: #44b51f;
+}
+
+input:checked{
+    width: 50px;
+    height: 50px;
+}
+
+.text:disabled{
+
+    background: red;
+    border: 5px solid var(--or);
+}
+
+
+h1:first-child{
+    color: white;
+    background-color: var(--or);
+    padding: 5px;
+    width: 25%;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+h1:last-child{
+    color: white;
+    background-color: orange;
+    padding: 5px;
+    width: 25%;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+h1:nth-child(1){
+    color: white;
+    background-color: orange;
+    padding: 5px;
+    width: 25%;
+    border-radius: 15px;
+    text-align: center;
+}
+
+h1:nth-child(odd){
+    color: white;
+    background-color: orange;
+    padding: 5px;
+    width: 25%;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+h1:nth-child(even){
+    color: white;
+    background-color: orange;
+    padding: 5px;
+    width: 25%;
+    border-radius: 15px;
+    text-align: center;
+} */
+
+input[title~="Hello"] {
+  color: orange;
+}
+
+body {
+  background: linear-gradient(
+    140deg,
+    rgba(0, 136, 242, 1) 0%,
+    rgba(237, 22, 176, 1) 100%
+  );
+  min-height: 100vh;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: orange;
+  /* margin: 0 auto; */
+  box-shadow: -1px -1px 100px rgb(0 0 0);
+  transition: transform 0.5s ease-in-out;
+}
+.box:hover {
+    transform: translate(100px, -50px);
+    transform: rotate(45deg);
+    transform: scale(1.5);
+    transform: scaleX(1.5);
+    transform: scaleY(1.5);
+    transform: scale3d(1.5, 1.5, 1.5);
+    transform: skew(165deg, 311deg);
+    transform: skewX(31deg);
+    transform: skewY(52deg);
+    transform: translate(1000px, 0px);
+}

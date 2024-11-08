@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: 50px auto;
+    width: 80%;
+    background-color: aqua;
+}
+
+.container::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.container .image {
+    border-radius: 15px;
+    overflow: hidden;
+    width: 500px;
+    height: 400px;
+    float: left;
+}
+
+.container .content {
+    float: left;
+    margin-left: 50px;
+}
+
+.container  .content .heading {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.container .content p>a,
+.container  .content .heading span {
+    color: #f94b0a;
+}
+
+.container  .content .sub-heading {
+    color: #888;
+    margin: 30px 0;
+}
+
+.container  .content p {
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+.newsletter {
+    margin-top: 100px;
+}
+
+.newsletter input{
+    padding: 10px 6px;
+    border: 1px solid #888;
+    outline: none;
+    border-radius: 5px;
+    width: 350px;
+}
+
+.newsletter button {
+    background: #f94b0a;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.newsletter button:hover{
+    background-color: green;
+    cursor: pointer;
+}
+
+
+
+.search {
+    background-color: orange;
+    width: 70%;
+    height: 100px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+
+.search input {
+    border: none;
+    padding: 10px 15px;
+    width: 250px;
+    border-radius: 15px 0 0 15px;
+}
+
+.search button {
+    padding: 10px 5px;
+    width: 100px;
+    margin: -5px;
+    border: none;
+    background: rgb(6, 187, 6);
+    border-radius: 0 15px 15px 0;
+}
+
+
+.button_box button{
+    width: 40px;
+    padding: 40px;
+    background-color: aqua;
+    border: none;
+}
+
+.button_box button:hover{
+    background-color: orange;
+}

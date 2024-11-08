@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: asdf;
+    src: url('./fonts/Smooch-Regular.ttf');
+}
+
+h1{
+    font-family: asdf;
+    text-align: center;
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+}

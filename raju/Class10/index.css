@@ -1,0 +1,56 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main {
+  margin: 0px;
+  padding: 0px;
+}
+
+.calculator {
+  font-size: 50px;
+  font: bold;
+  color: firebrick;
+}
+
+.texts input {
+  height: 90px;
+  width: 258px;
+  text-align: right;
+  font-size: 70px;
+border: dotted;
+
+
+}
+
+.button button {
+  height: 60px;
+  width: 60px;
+  margin: 2px;
+  border-radius: 10px;
+  color: white;
+  font-size: 28px;
+}
+
+.first {
+  background-color: rgb(31, 34, 39);
+}
+.secend {
+  background-color: #453c87;
+}
+
+.main {
+  text-align: center;
+}
+
+.button .yello {
+  background-color: #e0a500;
+}
+
+.button :hover {
+  background-color: blanchedalmond;
+  border-radius: 40px;
+}

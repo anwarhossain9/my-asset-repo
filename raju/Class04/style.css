@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: red;
+    margin: 10px;
+}
+
+
+/* Comment */
+h1.heading {
+    color: blue;
+    text-transform: uppercase;
+}
+
+div.heading {
+    color: blue;
+    text-transform: uppercase;
+}

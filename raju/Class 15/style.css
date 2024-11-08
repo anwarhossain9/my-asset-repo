@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #b3b3b3;
+}
+
+.container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-areas:
+    "red    red     red"
+    "blue   green   green"
+    "blue   brown1  brown2";
+}
+
+.item {
+  width: 100%;
+  height: 20vh;
+  border-radius: 10px;
+}
+.red {
+  background-color: red;
+  grid-area: red;
+}
+.blue {
+  background-color: blue;
+  grid-area: blue;
+  height: 41vh;
+}
+.green {
+  background-color: green;
+  grid-area: green;
+}
+.brown1 {
+  background-color: brown;
+  grid-area: brown1;
+}
+
+.brown2 {
+  background-color: brown;
+  grid-area: brown2;
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-areas:
+      "red"
+      "blue"
+      "green"
+      "brown1"
+      "brown2";
+    grid-template-columns: 1fr;
+  }
+}
+
+/*
+
+css -> mobile (@media (min-width) {}) 
+
+css -> desktop (@media (max-width) {})
+
+@media (max-width) {}
+
+@media (min-width) {}
+
+
+*/

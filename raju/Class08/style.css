@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* div{
+    display: none;
+} */
+
+.display{
+    /* width: 400px; */
+    display: block;  /* inline | block | contents |  flex | grid | inline-block | inline-flex | inline-grid | initial | inherit */
+}
+
+
+/* Background */
+
+.background {
+    width: 500px;
+    height: 500px;
+    /* background-image: url('./img/image.jpg');
+    background: red; */
+    background: url('./img/image.jpg') orange no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    padding: 100px;
+    background-clip: content-box;
+}
+
+/* body {
+    background: url('./img/image.jpg') orange;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}*/
+
+span{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-feature-settings:"smcp";
+}
